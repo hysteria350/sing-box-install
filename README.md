@@ -23,10 +23,34 @@ sing-box 是一款开源、跨平台的下一代科学上网与网络代理软�
 
 对于 debian 系列发行版（Ubuntu, Mint, MX, Kubuntu, Zorin 等等）
 
+```bash
 
-#### Redhat 系列 Linux 系统下载并安装 sing-box
+sudo apt update  -y
+sudo apt install sing-box
+
+```
+
+### Redhat 系列 Linux 系统下载并安装 sing-box
 
 对于 Redhat 系列发行版（Centos, Fedora, AlmaLinux, Rocky Linux 等）
+
+```bash
+
+sudo dnf config-manager addrepo --from-repofile=https://sing-box.app/sing-box.repo 
+sudo dnf install sing-box
+
+```
+
+## 配置 sing-box
+
+```bash
+
+sudo mkdir -p /etc/sing-box
+sudo nano /etc/sing-box/config.json
+
+```
+
+在 config.json 中写入你需要的代理配置（例如 VLESS、Shadowsocks 等）。
 
 
 ## 参考文档

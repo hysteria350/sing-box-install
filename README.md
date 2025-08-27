@@ -16,3 +16,21 @@ sing-box 是一款开源、跨平台的下一代科学上网与网络代理软�
 得益于社区生态，sing-box 不仅适合个人用户科学上网，也适合机场主部署作为后端。其高效的网络处理能力和对新协议的快速跟进，使其逐渐成为新一代代理软件的主流选择。
 
 ## sing-box 安装
+
+针对不同的操作系统，请参考不同的安装步骤。
+
+### Debian 系列 Linux 系统下载并安装 sing-box
+
+对于 debian 系列发行版（Ubuntu, Mint, MX, Kubuntu, Zorin 等等）
+
+
+#### Redhat 系列 Linux 系统下载并安装 sing-box
+
+对于 Redhat 系列发行版（Centos, Fedora, AlmaLinux, Rocky Linux 等）
+
+
+## 参考文档
+
+[包管理器](https://sing-box.sagernet.org/zh/installation/package-manager/)
+
+

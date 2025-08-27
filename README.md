@@ -1,2 +1,18 @@
-# sing-box-install
-sing-box 安装、sing-box 配置、sing-box 连接。
+# Linux 平台 sing-box 安装与配置教程（2025 最新）
+
+## sing-box 介绍
+
+sing-box 是一款开源、跨平台的下一代科学上网与网络代理软件，由社区开发并活跃维护。它以 高性能、模块化、可扩展 为核心设计理念，能够替代 v2ray、xray 等传统代理工具。
+相比旧一代软件，sing-box 在架构上更为简洁，支持 多种协议，如 VLESS、VMess、Shadowsocks、Trojan、Hysteria、Naïve 等，并内置 分流、规则匹配、DNS 劫持 等功能，方便用户根据需求灵活配置。
+
+其突出优势在于：
+
+1. 高性能 —— 使用 Go 语言编写，内存占用低，启动与连接速度快。
+2. 跨平台 —— 支持 Linux、Windows、macOS、Android、iOS 等系统，适配性强。
+3. 强大分流 —— 内置类 Surge/Clash 风格的规则系统，轻松实现按域名、IP、地理位置分流。
+4. 灵活配置 —— JSON 配置文件清晰易扩展，且不断完善 GUI 客户端（如 NekoBox、SFA、SFM），降低使用门槛。
+5. 未来导向 —— 原生支持 QUIC、gRPC 等新一代传输协议，并兼容多种加密算法，具备长远发展潜力。
+
+得益于社区生态，sing-box 不仅适合个人用户科学上网，也适合机场主部署作为后端。其高效的网络处理能力和对新协议的快速跟进，使其逐渐成为新一代代理软件的主流选择。
+
+## sing-box 安装

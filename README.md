@@ -52,9 +52,9 @@ sudo nano /etc/sing-box/config.json
 
 在 config.json 中写入你需要的代理配置（例如 VLESS、Shadowsocks 等）。
 
-
 ## 参考文档
 
-[包管理器](https://sing-box.sagernet.org/zh/installation/package-manager/)
+- [包管理器](https://sing-box.sagernet.org/zh/installation/package-manager/)
+- [sing-box config examples](https://github.com/chika0801/sing-box-examples)
 
 

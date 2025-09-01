@@ -28,6 +28,8 @@ sing-box 是一款开源、跨平台的下一代科学上网与网络代理软�
 sudo apt update  -y
 sudo apt install sing-box
 
+# 设置为开机自启动
+sudo systemctl enable sing-box
 ```
 
 ### Redhat 系列 Linux 系统下载并安装 sing-box
@@ -39,15 +41,19 @@ sudo apt install sing-box
 sudo dnf config-manager addrepo --from-repofile=https://sing-box.app/sing-box.repo 
 sudo dnf install sing-box
 
+# 设置为开机自启动
+sudo systemctl enable sing-box
 ```
 
 ### 一键脚本 sing-box
+
+该脚本从 GitHub 发布中下载并安装最新的软件包，适用于基于 deb 或 rpm 的 Linux 发行版、ArchLinux 和 OpenWrt。
 
 安装正式版
 
 ```bash
 
-bash -c "$(curl -L sing-box.vercel.app)" @ install
+curl -fsSL https://sing-box.app/install.sh | sh
 
 ```
 

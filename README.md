@@ -41,6 +41,16 @@ sudo dnf install sing-box
 
 ```
 
+### 一键脚本 sing-box
+
+安装正式版
+
+```bash
+
+bash -c "$(curl -L sing-box.vercel.app)" @ install
+
+```
+
 ## 配置 sing-box
 
 ```bash
